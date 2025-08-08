@@ -1,7 +1,7 @@
 # Ignore dependencies (Render will run npm install)
-node_modules/
-client/node_modules/
-server/node_modules/
+# node_modules/
+# client/node_modules/
+# server/node_modules/
 
 # Ignore build output (Render will build from source)
 dist/
