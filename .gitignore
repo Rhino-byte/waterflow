@@ -1,1 +1,17 @@
 node_modules
+# Ignore dependencies and build output
+node_modules/
+dist/
+build/
+
+# Ignore environment and log files
+.env
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# (Optional) Ignore folders you don't want in Git
+# client/
+# server/
