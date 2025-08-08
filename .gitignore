@@ -1,10 +1,13 @@
-node_modules
-# Ignore dependencies and build output
+# Ignore dependencies (Render will run npm install)
 node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore build output (Render will build from source)
 dist/
 build/
 
-# Ignore environment and log files
+# Ignore local environment and log files
 .env
 *.log
 
@@ -12,6 +15,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# (Optional) Ignore folders you don't want in Git
+# DO NOT ignore your source code folders!
+# (So REMOVE these lines if present:)
 # client/
 # server/
